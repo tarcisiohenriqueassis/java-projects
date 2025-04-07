@@ -10,6 +10,8 @@ public class BoletimEstudantil {
 
         int [] numerosAleatorios = {1,6,5,48,8,4,65,544,41564,558};
 
+
+
         System.out.println("Numeros Sorteados "+ Arrays.toString(numerosAleatorios));
 
     }

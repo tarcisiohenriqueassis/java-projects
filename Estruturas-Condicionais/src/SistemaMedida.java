@@ -4,9 +4,8 @@ import java.util.Scanner;
 public class SistemaMedida {
      public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-        
-
+        Scanner scanner = new Scanner(System.in);
+    
         System.out.println("Digite a medida, para recorte: ");
         String  medida = scanner.next().toUpperCase();
 
@@ -27,6 +26,7 @@ public class SistemaMedida {
               System.out.println(" Medida invalida! Medidas disponiveis P,M,G");
               break;
         }
+        //fecha o scanner, depois da execução para que n de erros
         scanner.close();
 
      }
